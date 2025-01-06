@@ -1,31 +1,18 @@
-ul{
-    list-style-type: square;
-    list-style-position: inside;
+table{
+    border:1px solid #7b0071;
+    border-collapse: collapse;
 }
 
-ol{
-    list-style-type: decimal-leading-zero;
+table td{
+    border: 1px solid #000;
+    padding: 20px;
+}
+table tr:hover{
+    background: #e7b4e9;
 }
 
-.menu{
-    width: 100%;
-    background: #ccc;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li{
-    display: inline-block;
-}
-
-.menu li a{
-    padding: 10px 20px;
-    display: inline-block;
-    color: white;
-}
-
-.menu li a:hover{
-    background: #ccc;
-    color:black
+table td:hover{
+    background: #000;
+    color: #fff;
+    ;
 }
