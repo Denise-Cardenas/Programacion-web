@@ -1,29 +1,16 @@
-a{
-    font-size: 20px;
-    color:#f5b0b0;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 10px 20px 10px 0px;
-}
-
-a:link{
-    color: #7c13df;
-    font-size: 15px;
-}
-
-a:visited{
-    color:#000;
-}
-
-a:hover{
-    text-decoration: underline;
-    font-size: 30px;
-    background: #d08181;
-    color: #fff;
+img{
+    height: 300px;
+    width: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+   /* box-shadow: 5px 5px 0px #ccc;*/
+    padding: 10px;
+    border: 2px solid #ccc;
 
 }
 
-a:active{
-    background: #ff8000;
-
+div{
+    background: #eb0c0c;
+    width: 100%;
 }
