@@ -1,0 +1,180 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #6a8f5a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Botón de enlace */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #6a8f5a;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #4e6e3f;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#inicio {
+    background-image: url('imagenes/banner.jpeg'); /* Imagen de fondo del banner */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Catálogo */
+.productos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 265px);
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 8px;
+    width: 150px; /* Ancho fijo */
+    height: 150px; /* Alto fijo */
+    object-fit: cover; 
+}
+
+/* Blog */
+article {
+    margin-bottom: 15px;
+}
+
+/* Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #6a8f5a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4e6e3f;
+}
+
+/* Estilos generales */
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img {
+    max-width: 30%;
+    border-radius: 8px;
+}
+
+.nosotros {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% -10px);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+

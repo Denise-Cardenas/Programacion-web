@@ -1,23 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Formulario</title>
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muebles Ecológicos RA</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" placeholder="Escribe tu nombre">
 
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Escribe tu email">
+    <!-- Encabezado -->
+    <header>
+        <h1>Muebles Ecológicos RA</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+    <!-- Página de Inicio -->
+    <section id="inicio">
+        <h2>Bienvenido a Muebles Ecológicos</h2>
+        <p>Diseño, sostenibilidad, estilo. Muebles ecológicos que hacen bien al planeta y a tu hogar.</p>
+        <a href="#catalogo" class="button">Ver Catálogo</a>
+    </section>
+    <!--carrusel-->
+    <section id="carrusel">
+        <h2>Galería de Muebles</h2>
+        <div class="carousel">
+            <div class="carousel-item"><img src="imagenes/mueble1.jpg" alt="Mueble 1"></div>
+            <div class="carousel-item"><img src="imagenes/mueble2.jpg" alt="Mueble 2"></div>
+            <div class="carousel-item"><img src="imagenes/mueble3.jpg" alt="Mueble 3"></div>
+            <div class="carousel-item"><img src="mueble4.jpg" alt="Mueble 4"></div>
+        </div>
+    </section>
+    <!-- Catálogo -->
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="sofa.jpeg" alt="Sofá Ecológico">
+                <h3>Sofá Ecológico</h3>
+                <p>Materiales reciclados, diseño elegante y sostenible.</p>
+                <p>Precio: $500</p>
+                <a href="#contacto" class="button">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="mesa.jpg" alt="Mesa de Comedor">
+                <h3>Mesa de Comedor</h3>
+                <p>Madera certificada FSC, perfecta para tu hogar.</p>
+                <p>Precio: $800</p>
+                <a href="#contacto" class="button">Comprar</a>
+            </div>
+            <div class="producto">
+                <img src="taburete.jpeg" alt="Taburete">
+                <h3>Taburete de Sala</h3>
+                <p>Plastico ecologico, perfecta para tu hogar.</p>
+                <p>Precio: $500</p>
+                <a href="#contacto" class="button">Comprar</a>
+            </div>
+            <!-- Añade más productos aquí -->
+        </div>
+    </section>
 
-        <input type="submit" value="Enviar">
-    </form>
-    
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <div class="nosotros">
+            <p>Nos dedicamos a la creación de muebles ecológicos utilizando materiales sostenibles y apoyando a artesanos locales.</p>
+            
+                <li>Compromiso Ambiental</li>
+                <li> Apoyo a Artesanos Locales</li>
+                <li>Materiales Renovables</li>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>¿Por qué elegir muebles ecológicos?</h3>
+            <p>Los muebles ecológicos ofrecen una alternativa sostenible para amueblar tu hogar.</p>
+        </article>
+        <article>
+            <h3>Guía para mantener tus muebles de manera sostenible</h3>
+            <p>Sigue estos pasos para cuidar tus muebles:</p>
+            <ol>
+                <li>Límpialos regularmente con productos naturales.</li>
+                <li>Evita exponerlos a la luz solar directa.</li>
+                <li>Usa protectores para evitar rayones en superficies delicadas.</li>
+            </ol>
+        </article>        
+    </section>
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>También puedes contactarnos a través de nuestras redes sociales:</p>
+        <p>| Facebook | Pinterest</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 Muebles Ecológicos. Todos los derechos reservados.CDMX. NUM. +52 55786902020</p>
+    </footer>
+
 </body>
 </html>
