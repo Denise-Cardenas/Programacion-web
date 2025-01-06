@@ -1,15 +1,13 @@
-h1 {
-    color:aqua;
+h1{
+    background: #ff8000;
 }
 
-h2{
-    color:rgb(53, 131, 44, .5);
-}
-
-h3{
-    color: #4D9B44;
-}
-
-h4{
-    color:rgb (88%, 99%, 78%)
+div{
+    width: 50%;
+    height: 200px;
+    background: #ff8000;
+    margin: 20px 50px;
+    padding: 30px;
+    border: 10px solid #000;
+    display: inline-block;
 }
