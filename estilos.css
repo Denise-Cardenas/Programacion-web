@@ -1,13 +1,11 @@
-h1{
-    background: #ff8000;
+body{
+    background:url(../imagenes/Logo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
 }
 
 div{
-    width: 50%;
-    height: 200px;
-    background: #ff8000;
-    margin: 20px 50px;
-    padding: 30px;
-    border: 10px solid #000;
-    display: inline-block;
+    background: url(../imagenes/Logo.jpeg);
+    height: 300px;
 }
