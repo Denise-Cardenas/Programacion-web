@@ -1,16 +1,31 @@
-img{
-    height: 300px;
-    width: auto;
-    margin: auto;
-    display: block;
-    border-radius: 50%;
-   /* box-shadow: 5px 5px 0px #ccc;*/
-    padding: 10px;
-    border: 2px solid #ccc;
-
+ul{
+    list-style-type: square;
+    list-style-position: inside;
 }
 
-div{
-    background: #eb0c0c;
+ol{
+    list-style-type: decimal-leading-zero;
+}
+
+.menu{
     width: 100%;
+    background: #ccc;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+}
+
+.menu li a:hover{
+    background: #ccc;
+    color:black
 }
