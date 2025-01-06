@@ -1,13 +1,15 @@
-body{
-    font-size: 16px;
+h1 {
+    color:aqua;
 }
 
-div{
-background: #000;
-color: #fff;
-width: 100px;
+h2{
+    color:rgb(53, 131, 44, .5);
 }
 
-div p {
-    font-size: 1em;
+h3{
+    color: #4D9B44;
+}
+
+h4{
+    color:rgb (88%, 99%, 78%)
 }
