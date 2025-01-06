@@ -1,18 +1,42 @@
-table{
-    border:1px solid #7b0071;
-    border-collapse: collapse;
-}
-
-table td{
-    border: 1px solid #000;
+form{
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 20px;
     padding: 20px;
 }
-table tr:hover{
-    background: #e7b4e9;
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
 }
 
-table td:hover{
-    background: #000;
-    color: #fff;
-    ;
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #9b16c4;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+input[type="submit"]{
+    margin-bottom: 0px;
+    background: #c416c4;
+    color: #e195ff;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #000000;
+    cursor: pointer;
 }
