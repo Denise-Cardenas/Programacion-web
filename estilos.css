@@ -1,22 +1,19 @@
-div {
-    width: 100px;
-    height: 100px;
-    background:#4A88F4;
-    color:black;
-    font-size: 30px;
-    float: left;
+p{
+    color:#d400ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-shadow: 5px 5px 5px #b300ff;
 }
 
-.Caja{
-    position: relative;
-    top: 100px;
-    bottom: 0;
-    right: 0;
-    left: 200px;
-}
-
-.caja_padre{
-    width: 500px;
-    height: 500px;
-    background: black;
+h1{
+    font-weight: normal;
+    text-align: center;
+    background: #d695f9;
 }
